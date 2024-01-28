@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddNoteActivity">
+
+    <EditText
+        android:id="@+id/editTextNoteAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/hintTextNoteAddNote"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupNotesAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radioButtonGreenNoteAddNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:checked="true"
+            android:importantForAutofill="auto"
+            android:padding="10dp"
+            android:text="@string/radioButtonGreenNoteAddNote"
+            android:textSize="8sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonYellowNoteAddNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@android:color/holo_orange_light"
+            android:padding="10dp"
+            android:text="@string/radioButtonYellowNoteAddNote"
+            android:textSize="8sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonRedNoteAddNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:padding="10dp"
+            android:text="@string/radioButtonRedNoteAddNote"
+            android:textSize="8sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonMakeNoteAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/buttonMakeNoteAddNote" />
+</LinearLayout>

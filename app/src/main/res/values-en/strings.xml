@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TODO</string>
+    <string name="hintTextNoteAddNote">Input a note\'s text</string>
+    <string name="radioButtonGreenNoteAddNote">low priority</string>
+    <string name="radioButtonYellowNoteAddNote">middle priority</string>
+    <string name="radioButtonRedNoteAddNote">high priority</string>
+    <string name="buttonMakeNoteAddNote">save a note</string>
+</resources>
